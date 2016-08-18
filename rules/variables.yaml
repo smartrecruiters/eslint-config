@@ -1,0 +1,4 @@
+rules:
+  no-catch-shadow: error
+  no-label-var: error
+  no-undef-init: error

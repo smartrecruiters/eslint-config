@@ -1,0 +1,8 @@
+rules:
+  no-negated-in-lhs: error
+  getter-return: error
+  no-await-in-loop: error
+  no-extra-parens: error
+  no-prototype-builtins: error
+  no-template-curly-in-string: error
+  valid-jsdoc: error
