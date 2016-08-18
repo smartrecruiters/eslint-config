@@ -1,0 +1,18 @@
+{
+  "name": "@smartrecruiters/eslint-config",
+  "version": "2.2.0",
+  "description": "SmartRecruiters' ESlint rules and config",
+  "repository": "smartrecruiters/eslint-config",
+  "author": {
+    "name": "Szymon Kiebzak",
+    "email": "s.kiebzak@gmail.com"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smartrecruiters/eslint-config/issues"
+  },
+  "homepage": "https://github.com/smartrecruiters/eslint-config"
+}

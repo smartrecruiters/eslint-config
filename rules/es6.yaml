@@ -1,0 +1,29 @@
+rules:
+  arrow-body-style:
+  - error
+  - as-needed
+  arrow-spacing: error
+  arrow-parens:
+  - error
+  - as-needed
+  no-duplicate-imports: error
+  no-useless-computed-key: error
+  no-useless-constructor: error
+  no-useless-rename: error
+  no-var: error
+  object-shorthand: error
+  prefer-arrow-callback: error
+  prefer-const: error
+  prefer-destructuring:
+  - error
+  - array: false
+    object: true
+  prefer-numeric-literals: error
+  prefer-rest-params: error
+  prefer-spread: error
+  prefer-template: error
+  rest-spread-spacing: error
+  template-curly-spacing: error
+  id-blacklist:
+  - error
+  - _
