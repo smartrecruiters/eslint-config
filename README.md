@@ -112,7 +112,7 @@ violations are introduced:
 npm run lint -- --max-warnings Int
 ```
 
-where Int is a number of maximum number of warnings allowed.
+where `Int` is a number of maximum number of warnings allowed.
 
 Same, what this command does is actually:
 ```
@@ -139,7 +139,7 @@ It is very handy to have enabled automatic linting in your IDE:
 
 Prepared for your **node.js** code. It is based on built-in eslint config 
 [eslint-recommended](http://eslint.org/docs/user-guide/configuring#using-eslintrecommended). 
-But it also have following rules enabled (see reference section for description of each rule):
+But it also has following rules enabled (see reference section for description of each rule):
 
 * [Possible errors](lib/rules/possible-errors.json)
 * [Best Practices](lib/rules/best-practices.json)
@@ -150,7 +150,7 @@ But it also have following rules enabled (see reference section for description 
 
 ## smartrecruiters/node/mocha
 
-Based on '@sr/eslint-config/node/main', but it is prepared for mocha & chai env. If you have globals configured for your
+Based on *'@sr/eslint-config/node/main'*, but it is prepared for mocha & chai env. If you have globals configured for your
 mocha test similarly:
 
 ```javascript
@@ -179,8 +179,8 @@ Which of course from technical point of view is an unused expression.
 
 # Contributing
 
-Should you have any suggestions, ideas, fixes or will to contribute with new eslint config (e.g. for browsers) please
-raise an issue or pull request.
+Should you have any suggestions, ideas, fixes or you would like to contribute with new eslint config (e.g. for browsers) please
+raise an issue or create a pull request.
 
 # References
 
