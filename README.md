@@ -2,7 +2,9 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
+[![Node.js Version][node-version-image]][node-version-url]
 [![Licence][license-image]][license-url]
+[![Build][travis-image]][travis-url]
 
 SmartRecruiters’ ESLint rules and configs.
 
@@ -200,5 +202,9 @@ Please see our [Code of conduct](docs/CODE_OF_CONDUCT.md) and [Contributing guid
 [npm-url]: https://www.npmjs.com/package/@smartrecruiters/eslint-config
 [downloads-image]: https://img.shields.io/npm/dm/@smartrecruiters/eslint-config.svg
 [downloads-url]: https://www.npmjs.com/package/@smartrecruiters/eslint-config
+[node-version-image]: https://img.shields.io/node/v/@smartrecruiters/eslint-config.svg
+[node-version-url]: https://nodejs.org/en/download/
 [license-url]: https://github.com/smartrecruiters/eslint-config/blob/master/LICENSE
 [license-image]: https://img.shields.io/npm/l/@smartrecruiters/eslint-config.svg
+[travis-url]: https://travis-ci.org/smartrecruiters/eslint-config
+[travis-image]: https://api.travis-ci.org/smartrecruiters/eslint-config.svg?branch=master
