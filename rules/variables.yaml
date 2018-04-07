@@ -1,4 +1,15 @@
+# https://eslint.org/docs/rules/#variables
+
 rules:
+#  init-declarations: off
   no-catch-shadow: error
+#  no-delete-var: eslint-recommended
   no-label-var: error
+#  no-restricted-globals: off
+#  no-shadow: off
+#  no-shadow-restricted-names: off
+#  no-undef: eslint:recommended
   no-undef-init: error
+#  no-undefined: off
+#  no-unused-vars: eslint:recommended
+#  no-use-before-define: off

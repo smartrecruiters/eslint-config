@@ -10,7 +10,14 @@ module.exports = {
         "assert": false
     },
     "extends": [
-        "./main.js",
-        "../rules/testing.yaml"
-    ]
+        "./main.js"
+    ],
+    "rules": {
+        "no-unused-expressions": "off",
+        "no-restricted-modules": [
+            "error",
+            "proxyquire",
+            "rewire"
+        ]
+    }
 }

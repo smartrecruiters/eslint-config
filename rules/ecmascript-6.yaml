@@ -1,12 +1,23 @@
+# https://eslint.org/docs/rules/#stylistic-issues
+
 rules:
   arrow-body-style:
   - error
   - as-needed
-  arrow-spacing: error
   arrow-parens:
   - error
   - as-needed
+  arrow-spacing: error
+#  constructor-super: eslint:recommended
+#  generator-star-spacing: off
+#  no-class-assign: eslint:recommended
+#  no-confusing-arrow: off
+#  no-const-assign: eslint:recommended
+#  no-dupe-class-members: eslint:recommended
   no-duplicate-imports: error
+#  no-new-symbol: eslint:recommended
+#  no-restricted-imports: off
+#  no-this-before-super: eslint:recommended
   no-useless-computed-key: error
   no-useless-constructor: error
   no-useless-rename: error
@@ -22,8 +33,9 @@ rules:
   prefer-rest-params: error
   prefer-spread: error
   prefer-template: error
+#  require-yield: eslint:recommended
   rest-spread-spacing: error
+#  sort-imports: off
+#  symbol-description: off
   template-curly-spacing: error
-  id-blacklist:
-  - error
-  - _
+#  yield-star-spacing: off

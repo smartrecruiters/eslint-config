@@ -1,8 +1,37 @@
+# https://eslint.org/docs/rules/#possible-errors
+
 rules:
-  no-negated-in-lhs: error
+#  for-direction: off
   getter-return: error
   no-await-in-loop: error
+#  no-compare-neg-zero: eslint:recommended
+#  no-cond-assign: eslint:recommended
+#  no-console: eslint:recommended
+#  no-constant-condition: eslint:recommended
+#  no-control-regex: eslint:recommended
+#  no-debugger: eslint:recommended
+#  no-dupe-args: eslint:recommended
+#  no-dupe-keys: eslint:recommended
+#  no-duplicate-case: eslint:recommended
+#  no-empty: eslint:recommended
+#  no-empty-character-class: eslint:recommended
+#  no-ex-assign: eslint:recommended
+#  no-extra-boolean-cast: eslint:recommended
   no-extra-parens: error
+#  no-extra-semi: eslint:recommended
+#  no-func-assign: eslint:recommended
+#  no-inner-declarations: eslint:recommended
+#  no-invalid-regexp: eslint:recommended
+#  no-irregular-whitespace: eslint:recommended
+#  no-obj-calls: eslint:recommended
   no-prototype-builtins: error
+#  no-regex-spaces: eslint:recommended
+#  no-sparse-arrays: eslint:recommended
   no-template-curly-in-string: error
+#  no-unexpected-multiline: eslint:recommended
+#  no-unreachable: eslint:recommended
+#  no-unsafe-finally: eslint:recommended
+#  no-unsafe-negation: eslint:recommended
+#  use-isnan: eslint:recommended
   valid-jsdoc: error
+#  valid-typeof: eslint:recommended

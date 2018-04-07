@@ -1,5 +1,9 @@
 # @smartrecruiters/eslint-config
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Licence][license-image]][license-url]
+
 SmartRecruiters’ ESLint rules and configs.
 
 - [Linting code in your module](#linting-code-in-your-module)
@@ -23,7 +27,8 @@ SmartRecruiters’ ESLint rules and configs.
 
 ## Install eslint & @smartrecruiters/eslint-config
 
-Install the latest `eslint` and ` @smartrecruiters/eslint-config` as devDependency (`-D`) and exact version in package.json (`-E`)
+Install the latest `eslint` and ` @smartrecruiters/eslint-config` as devDependency (`-D`) and exact version in
+package.json (`-E`)
 ```
 $ npm i -DE eslint @smartrecruiters/eslint-config
 ```
@@ -141,28 +146,28 @@ Prepared for your **node.js** code. It is based on built-in eslint config
 [eslint-recommended](http://eslint.org/docs/user-guide/configuring#using-eslintrecommended). 
 But it also has following rules enabled (see reference section for description of each rule):
 
-* [Possible errors](lib/rules/possible-errors.json)
-* [Best Practices](lib/rules/best-practices.json)
-* [Variables](lib/rules/variables.json)
-* [Node.js](lib/rules/node.json)
-* [Stylistic issues](lib/rules/stylistic-issues.json)
-* [ECMAScript 6](lib/rules/es6.json)
+* [Possible errors](lib/rules/possible-errors.yaml)
+* [Best Practices](lib/rules/best-practices.yaml)
+* [Variables](lib/rules/variables.yaml)
+* [Node.js and CommonJS](lib/rules/node_js-and-commonjs.yaml)
+* [Stylistic issues](lib/rules/stylistic-issues.yaml)
+* [ECMAScript 6](lib/rules/ecmascript-6.yaml)
 
 ## smartrecruiters/node/mocha
 
-Based on *'@smartrecruiters/eslint-config/node/main'*, but it is prepared for mocha & chai env. If you have globals configured for your
-mocha test similarly:
+Based on *'@smartrecruiters/eslint-config/node/main'*, but it is prepared for mocha & chai env. If you have globals
+configured for your mocha test similarly:
 
 ```javascript
-const chai = require('chai');
-chai.use(require('chai-as-promised'));
-const sinon = require('sinon');
+const chai = require('chai')
+chai.use(require('chai-as-promised'))
+const sinon = require('sinon')
 
-global.sinon = sinon;
-global.chai = chai;
-global.expect = chai.expect;
-global.should = chai.should();
-global.assert = chai.assert;
+global.sinon = sinon
+global.chai = chai
+global.expect = chai.expect
+global.should = chai.should()
+global.assert = chai.assert
 
 ```
 
@@ -171,7 +176,7 @@ eslint configuration speficies `sinon`, `chai`, `expect`,`should` and `assert` a
 
 It also disables `no-unused-expressions` rule, because e.g. writing assertions with expect may end up with:
 ```javascript
-expect(aVirginOver20).to.exists;
+expect(aVirginOver20).to.exists
 
 ```
 
@@ -179,10 +184,21 @@ Which of course from technical point of view is an unused expression.
 
 # Contributing
 
-Should you have any suggestions, ideas, fixes or you would like to contribute with new eslint config (e.g. for browsers) please
-raise an issue or create a pull request.
+Please see our [Code of conduct](docs/CODE_OF_CONDUCT.md) and [Contributing guidelines](docs/CONTRIBUTING.md)
 
 # References
 
  - http://eslint.org/
  - http://eslint.org/docs/rules/
+
+
+## License
+
+[MIT](LICENSE)
+
+[npm-image]: https://img.shields.io/npm/v/@smartrecruiters/eslint-config.svg
+[npm-url]: https://www.npmjs.com/package/@smartrecruiters/eslint-config
+[downloads-image]: https://img.shields.io/npm/dm/@smartrecruiters/eslint-config.svg
+[downloads-url]: https://www.npmjs.com/package/@smartrecruiters/eslint-config
+[license-url]: https://github.com/smartrecruiters/eslint-config/blob/master/LICENSE
+[license-image]: https://img.shields.io/npm/l/@smartrecruiters/eslint-config.svg

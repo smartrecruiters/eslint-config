@@ -1,26 +1,37 @@
+# https://eslint.org/docs/rules/#best-practices
+
 rules:
+#  accessor-pairs: off
   array-callback-return: error
   block-scoped-var: error
-  curly: error
+#  class-methods-use-this: off
   complexity:
   - error
   - 6
-  dot-notation: error
-  eqeqeq: error
+#  consistent-return: off
+  curly: error
+#  default-case: off
   dot-location:
   - error
   - property
+  dot-notation: error
+  eqeqeq: error
   guard-for-in: error
+#  no-alert: off
   no-caller: error
+#  no-case-declaration - eslint:recommended
   no-div-regex: error
   no-else-return: error
   no-empty-function: error
+#  no-empty-pattern - eslint:recommended
   no-eq-null: error
   no-eval: error
   no-extend-native: error
   no-extra-bind: error
   no-extra-label: error
+#  no-fallthrough: eslint:recommended
   no-floating-decimal: error
+#  no-global-assign: eslint:recommended
   no-implicit-coercion: error
   no-implicit-globals: error
   no-implied-eval: error
@@ -29,16 +40,22 @@ rules:
   no-labels: error
   no-lone-blocks: error
   no-loop-func: error
+#  no-magic-numbers: off
   no-multi-spaces: error
   no-multi-str: error
   no-new: error
   no-new-func: error
   no-new-wrappers: error
+#  no-octal: eslint:recommended
   no-octal-escape: error
   no-param-reassign: error
   no-proto: error
+#  no-redeclare: eslint-recommended
+#  no-restricted-properties: off
   no-return-assign: error
   no-return-await: error
+#  no-script-url: off
+#  no-self-assign: eslint-recommended
   no-self-compare: error
   no-sequences: error
   no-throw-literal: error
@@ -46,12 +63,17 @@ rules:
   no-unused-expressions:
   - error
   - allowTernary: true
+#  no-unused-labels: eslint-recommended
   no-useless-call: error
   no-useless-concat: error
+#  no-useless-escape: eslint-recommended
   no-useless-return: error
   no-void: error
   no-warning-comments: error
   no-with: error
+#  prefer-promise-reject-errors: off
+#  radix: off
   require-await: error
+#  vars-on-top: off
   wrap-iife: error
   yoda: error
