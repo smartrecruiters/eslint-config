@@ -1,23 +1,23 @@
 module.exports = {
-    "env": {
-        "mocha": true
+    env: {
+        mocha: true
     },
-    "globals": {
-        "sinon": false,
-        "chai": false,
-        "expect": false,
-        "should": false,
-        "assert": false
+    globals: {
+        sinon: false,
+        chai: false,
+        expect: false,
+        should: false,
+        assert: false
     },
-    "extends": [
-        "./main.js"
+    extends: [
+        './main.js'
     ],
-    "rules": {
-        "no-unused-expressions": "off",
-        "no-restricted-modules": [
-            "error",
-            "proxyquire",
-            "rewire"
+    rules: {
+        'no-unused-expressions': 'off',
+        'no-restricted-modules': [
+            'error',
+            'proxyquire',
+            'rewire'
         ]
     }
 }
