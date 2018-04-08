@@ -5,9 +5,7 @@ rules:
   array-bracket-spacing: error
 #  array-element-newline: off
   block-spacing: error
-  brace-style:
-  - error
-  - 1tbs
+  brace-style: error
   camelcase:
   - error
   - properties: never
@@ -51,7 +49,7 @@ rules:
 #  multiline-comment-style: off
 #  multiline-ternary: off
 #  new-cap: off
-#  new-parens: off
+  new-parens: error
 #  newline-per-chained-call: off
   no-array-constructor: error
   no-bitwise: error
@@ -66,7 +64,7 @@ rules:
   - max: 1
     maxEOF: 1
     maxBOF: 0
-#  no-negated-condition: off
+  no-negated-condition: error
   no-nested-ternary: error
   no-new-object: error
 #  no-plusplus: off
@@ -110,7 +108,7 @@ rules:
   space-infix-ops: error
   space-unary-ops: error
 #  spaced-comment: off
-#  switch-colon-spacing: off
-#  template-tag-spacing: off
+  switch-colon-spacing: error
+  template-tag-spacing: error
 #  unicode-bom: off
   wrap-regex: error
