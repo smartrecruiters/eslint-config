@@ -3,11 +3,11 @@
 rules:
 #  init-declarations: off
   no-catch-shadow: error
-#  no-delete-var: eslint-recommended
+#  no-delete-var: eslint:recommended
   no-label-var: error
 #  no-restricted-globals: off
 #  no-shadow: off
-#  no-shadow-restricted-names: off
+  no-shadow-restricted-names: error
 #  no-undef: eslint:recommended
   no-undef-init: error
 #  no-undefined: off

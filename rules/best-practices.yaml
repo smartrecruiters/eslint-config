@@ -4,10 +4,8 @@ rules:
 #  accessor-pairs: off
   array-callback-return: error
   block-scoped-var: error
-#  class-methods-use-this: off
-  complexity:
-  - error
-  - 6
+  class-methods-use-this: error
+  complexity: error
 #  consistent-return: off
   curly: error
 #  default-case: off
@@ -19,11 +17,11 @@ rules:
   guard-for-in: error
 #  no-alert: off
   no-caller: error
-#  no-case-declaration - eslint:recommended
+#  no-case-declaration: eslint:recommended
   no-div-regex: error
   no-else-return: error
   no-empty-function: error
-#  no-empty-pattern - eslint:recommended
+#  no-empty-pattern: eslint:recommended
   no-eq-null: error
   no-eval: error
   no-extend-native: error
@@ -50,12 +48,12 @@ rules:
   no-octal-escape: error
   no-param-reassign: error
   no-proto: error
-#  no-redeclare: eslint-recommended
+#  no-redeclare: eslint:recommended
 #  no-restricted-properties: off
   no-return-assign: error
   no-return-await: error
 #  no-script-url: off
-#  no-self-assign: eslint-recommended
+#  no-self-assign: eslint:recommended
   no-self-compare: error
   no-sequences: error
   no-throw-literal: error
@@ -63,16 +61,18 @@ rules:
   no-unused-expressions:
   - error
   - allowTernary: true
-#  no-unused-labels: eslint-recommended
+#  no-unused-labels: eslint:recommended
   no-useless-call: error
   no-useless-concat: error
-#  no-useless-escape: eslint-recommended
+#  no-useless-escape: eslint:recommended
   no-useless-return: error
   no-void: error
   no-warning-comments: error
   no-with: error
-#  prefer-promise-reject-errors: off
-#  radix: off
+  prefer-promise-reject-errors: error
+  radix:
+  - error
+  - as-needed
   require-await: error
 #  vars-on-top: off
   wrap-iife: error
