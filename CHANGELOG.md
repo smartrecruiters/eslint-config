@@ -1,3 +1,10 @@
+<a name="4.1.0"></a>
+## 4.1.0 (2018-05-10)
+
+* Change ecmaVersion syntax from 2015 to 2017 (#4) ([c185a11](https://github.com/smartrecruiters/eslint-config/commit/c185a11)), closes [#4](https://github.com/smartrecruiters/eslint-config/issues/4)
+
+
+
 <a name="4.0.0"></a>
 ## 4.0.0 (2018-04-16)
 
