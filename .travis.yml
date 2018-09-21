@@ -4,3 +4,5 @@ before_script:
 script:
   - eslint -c node/main.js .
   - eslint -c node/mocha.js .
+  - eslint -c node/10/main.js .
+  - eslint -c node/10/mocha.js .

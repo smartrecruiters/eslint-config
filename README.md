@@ -43,10 +43,20 @@ In root directory of your project, create `.eslintrc.yaml` with following conten
 extends: '@smartrecruiters/eslint-config/node/main'
 ```
 
+or, when you use node.js v10
+```yaml
+extends: '@smartrecruiters/eslint-config/node/10/main'
+```
+
 Additionally, if your project uses `mocha`, you may override main config and use eslint config prepared for mocha test.
 To do it, go to your test directory and create `.eslintrc.yaml` with following content:
 ```yaml
 extends: '@smartrecruiters/eslint-config/node/mocha'
+```
+
+or, when you use node.js v10
+```yaml
+extends: '@smartrecruiters/eslint-config/node/10/mocha'
 ```
 
 Update script section in your `package.json`:
