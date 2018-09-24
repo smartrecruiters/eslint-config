@@ -1,3 +1,10 @@
+## 4.2.0 (2018-09-24)
+
+* Config for node.js 10 supporting ES 2018 (#6) ([2b496f5](https://github.com/smartrecruiters/eslint-config/commit/2b496f5)), closes [#6](https://github.com/smartrecruiters/eslint-config/issues/6)
+* no-shadow rule enabled (no-catch-shadow is now deprecated) (#5) ([4a6f0a8](https://github.com/smartrecruiters/eslint-config/commit/4a6f0a8)), closes [#5](https://github.com/smartrecruiters/eslint-config/issues/5)
+
+
+
 <a name="4.1.0"></a>
 ## 4.1.0 (2018-05-10)
 
