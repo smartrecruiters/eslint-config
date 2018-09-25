@@ -2,7 +2,6 @@
 
 rules:
 #  init-declarations: off
-  no-shadow: error
 #  no-delete-var: eslint:recommended
   no-label-var: error
 #  no-restricted-globals: off
