@@ -1,3 +1,9 @@
+## 4.3.0 (2018-09-25)
+
+* Disable no-shadow rule (too controversial) (#7) ([4c28847](https://github.com/smartrecruiters/eslint-config/commit/4c28847)), closes [#7](https://github.com/smartrecruiters/eslint-config/issues/7)
+
+
+
 ## 4.2.0 (2018-09-24)
 
 * Config for node.js 10 supporting ES 2018 (#6) ([2b496f5](https://github.com/smartrecruiters/eslint-config/commit/2b496f5)), closes [#6](https://github.com/smartrecruiters/eslint-config/issues/6)
