@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        '../mocha.js',
-        './main.js'
+        './main.js',
+        '../mocha.js'
     ]
 }
