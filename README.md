@@ -27,12 +27,15 @@ SmartRecruiters’ ESLint rules and configs.
 
 # Linting code in your module
 
+## ESLint compatibility
+
+Current version is designed to work with `eslint@^6`.
+
 ## Install eslint & @smartrecruiters/eslint-config
 
-Install the latest `eslint` and ` @smartrecruiters/eslint-config` as devDependency (`-D`) and exact version in
-package.json (`-E`)
+Install the latest `eslint` and ` @smartrecruiters/eslint-config` as devDependency (`-D`) in your project:
 ```
-$ npm i -DE eslint @smartrecruiters/eslint-config
+$ npm i -D eslint @smartrecruiters/eslint-config
 ```
 
 ## Configure eslint in your project
@@ -80,7 +83,7 @@ $ npm run lint
 When you first apply linting in your legacy project, you may find many violations. Don't worry, there are some easy ways
 to handle this:
 
-### Automatix fix
+### Automatic fix
 
 Many rules have ability to fix your code. After you configured eslint in your project in a way described above, just run:
 ```

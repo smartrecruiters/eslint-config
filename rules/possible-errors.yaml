@@ -1,12 +1,13 @@
 # https://eslint.org/docs/rules/#possible-errors
 
 rules:
-#  for-direction: off
-  getter-return: error
+#  for-direction: eslint:recommended
+#  getter-return: eslint:recommended
+#  no-async-promise-executor eslint:recommended
   no-await-in-loop: error
 #  no-compare-neg-zero: eslint:recommended
 #  no-cond-assign: eslint:recommended
-#  no-console: eslint:recommended
+  no-console: error
 #  no-constant-condition: eslint:recommended
 #  no-control-regex: eslint:recommended
 #  no-debugger: eslint:recommended
@@ -23,8 +24,9 @@ rules:
 #  no-inner-declarations: eslint:recommended
 #  no-invalid-regexp: eslint:recommended
 #  no-irregular-whitespace: eslint:recommended
+#  no-misleading-character-class: eslint:recommended
 #  no-obj-calls: eslint:recommended
-  no-prototype-builtins: error
+#  no-prototype-builtins: eslint:recommended
 #  no-regex-spaces: eslint:recommended
 #  no-sparse-arrays: eslint:recommended
   no-template-curly-in-string: error
@@ -32,6 +34,6 @@ rules:
 #  no-unreachable: eslint:recommended
 #  no-unsafe-finally: eslint:recommended
 #  no-unsafe-negation: eslint:recommended
+#  require-atomic-updates: eslint:recommended
 #  use-isnan: eslint:recommended
-  valid-jsdoc: error
 #  valid-typeof: eslint:recommended

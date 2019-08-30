@@ -15,6 +15,7 @@ rules:
   dot-notation: error
   eqeqeq: error
   guard-for-in: error
+#  max-classes-per-file: off
 #  no-alert: off
   no-caller: error
 #  no-case-declaration: eslint:recommended
@@ -63,17 +64,20 @@ rules:
   - allowTernary: true
 #  no-unused-labels: eslint:recommended
   no-useless-call: error
+#  no-useless-catch: eslint:recommended
   no-useless-concat: error
 #  no-useless-escape: eslint:recommended
   no-useless-return: error
   no-void: error
   no-warning-comments: error
-  no-with: error
+#  no-with: error: eslint:recommended
+#  prefer-named-capture-group: off
   prefer-promise-reject-errors: error
   radix:
   - error
   - as-needed
   require-await: error
+#  require-unicode-regexp: off
 #  vars-on-top: off
   wrap-iife: error
   yoda: error
