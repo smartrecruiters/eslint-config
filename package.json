@@ -4,7 +4,7 @@
   "description": "SmartRecruiters' ESlint rules and config",
   "repository": "smartrecruiters/eslint-config",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "author": {
     "name": "Szymon Kiebzak",
