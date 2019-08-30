@@ -1,6 +1,9 @@
 module.exports = {
     extends: [
-        './main.js',
+        '../main.js',
         '../mocha.js'
-    ]
+    ],
+    parserOptions: {
+        ecmaVersion: 2018
+    }
 }

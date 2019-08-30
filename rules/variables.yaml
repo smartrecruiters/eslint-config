@@ -6,9 +6,13 @@ rules:
   no-label-var: error
 #  no-restricted-globals: off
 #  no-shadow: off
-  no-shadow-restricted-names: error
+#  no-shadow-restricted-names: eslint:recommended
 #  no-undef: eslint:recommended
   no-undef-init: error
 #  no-undefined: off
-#  no-unused-vars: eslint:recommended
-#  no-use-before-define: off
+  no-unused-vars:
+    - error
+    - ignoreRestSiblings: true
+  no-use-before-define:
+    - error
+    - nofunc
