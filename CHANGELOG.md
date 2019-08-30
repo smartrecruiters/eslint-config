@@ -1,3 +1,9 @@
+## <small>5.0.1 (2019-08-30)</small>
+
+* Update engines in package.json (#9) ([73f7ce3](https://github.com/smartrecruiters/eslint-config/commit/73f7ce3)), closes [#9](https://github.com/smartrecruiters/eslint-config/issues/9)
+
+
+
 ## 5.0.0 (2019-08-30)
 
 * Config for eslint@^6 (#8) ([7368533](https://github.com/smartrecruiters/eslint-config/commit/7368533)), closes [#8](https://github.com/smartrecruiters/eslint-config/issues/8)
