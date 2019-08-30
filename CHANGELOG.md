@@ -1,3 +1,9 @@
+## 5.0.0 (2019-08-30)
+
+* Config for eslint@^6 (#8) ([7368533](https://github.com/smartrecruiters/eslint-config/commit/7368533)), closes [#8](https://github.com/smartrecruiters/eslint-config/issues/8)
+
+
+
 ## 4.3.0 (2018-09-25)
 
 * Disable no-shadow rule (too controversial) (#7) ([4c28847](https://github.com/smartrecruiters/eslint-config/commit/4c28847)), closes [#7](https://github.com/smartrecruiters/eslint-config/issues/7)
