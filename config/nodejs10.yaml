@@ -1,0 +1,4 @@
+extends:
+  - ./nodejs.yaml
+parserOptions:
+  ecmaVersion: 2018

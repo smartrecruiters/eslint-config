@@ -1,8 +1,1 @@
-module.exports = {
-    extends: [
-        '../main.js'
-    ],
-    parserOptions: {
-        ecmaVersion: 2018
-    }
-}
+module.exports.extends = '../../config/nodejs10.yaml'

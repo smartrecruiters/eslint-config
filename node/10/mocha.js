@@ -1,9 +1,4 @@
-module.exports = {
-    extends: [
-        '../main.js',
-        '../mocha.js'
-    ],
-    parserOptions: {
-        ecmaVersion: 2018
-    }
-}
+module.exports.extends = [
+    './main.js',
+    '../../config/mocha.yaml'
+]
