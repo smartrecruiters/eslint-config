@@ -1,0 +1,14 @@
+env:
+  mocha: true
+globals:
+  sinon: false
+  chai: false
+  expect: false
+  should: false
+  assert: false
+rules:
+  no-unused-expressions: off
+  no-restricted-modules:
+    - error
+    - proxyquire
+    - rewire
