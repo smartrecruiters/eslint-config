@@ -1,3 +1,8 @@
+## 6.0.0 (2022-09-06)
+
+* Update engines in package.json (#11) ([e2d2269](https://github.com/smartrecruiters/eslint-config/pull/11/commits/e2d2269)), closes [#11](https://github.com/smartrecruiters/eslint-config/issues/11)
+
+
 ## <small>5.0.1 (2019-08-30)</small>
 
 * Update engines in package.json (#9) ([73f7ce3](https://github.com/smartrecruiters/eslint-config/commit/73f7ce3)), closes [#9](https://github.com/smartrecruiters/eslint-config/issues/9)

@@ -1,6 +1,6 @@
 {
   "name": "@smartrecruiters/eslint-config",
-  "version": "5.0.2",
+  "version": "6.0.0",
   "description": "SmartRecruiters' ESlint rules and config",
   "repository": "smartrecruiters/eslint-config",
   "engines": {
