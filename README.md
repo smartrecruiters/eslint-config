@@ -161,12 +161,12 @@ Prepared for your **node.js** code. It is based on built-in eslint config
 [eslint-recommended](http://eslint.org/docs/user-guide/configuring#using-eslintrecommended). 
 But it also has following rules enabled (see reference section for description of each rule):
 
-* [Possible errors](lib/rules/possible-errors.yaml)
-* [Best Practices](lib/rules/best-practices.yaml)
-* [Variables](lib/rules/variables.yaml)
-* [Node.js and CommonJS](lib/rules/node_js-and-commonjs.yaml)
-* [Stylistic issues](lib/rules/stylistic-issues.yaml)
-* [ECMAScript 6](lib/rules/ecmascript-6.yaml)
+* [Possible errors](rules/possible-errors.yaml)
+* [Best Practices](rules/best-practices.yaml)
+* [Variables](rules/variables.yaml)
+* [Node.js and CommonJS](rules/node_js-and-commonjs.yaml)
+* [Stylistic issues](rules/stylistic-issues.yaml)
+* [ECMAScript 6](rules/ecmascript-6.yaml)
 
 ## smartrecruiters/node/mocha
 
